@@ -1,8 +1,29 @@
 aid: evidentio
-name: Evident.io *
-description: 'Evident.io * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/evidentio.png
+name: Evident.io
+description: 'Evident.io was a cloud security posture management company, founded in 2013,
+  best known for the Evident Security Platform (ESP) — an agentless SaaS service that
+  continuously monitored Amazon Web Services (and later Microsoft Azure) accounts for
+  security misconfigurations, compliance drift, and risk across services like IAM, S3,
+  EC2, and CloudTrail. ESP scored findings against frameworks such as CIS Benchmarks,
+  PCI DSS, HIPAA, and SOC 2, and exposed its analysis programmatically through a REST
+  API so teams could automate remediation and wire results into their DevSecOps pipelines.
+  Palo Alto Networks acquired Evident.io in March 2018 for roughly $300M and folded the
+  technology into what became Prisma Cloud. The standalone evident.io product, developer
+  portal, and API have been retired; the domain is now defensively held with no live
+  website or API surface. This record is retained for historical/network-graph
+  completeness — there is no live API to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/evidentio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +31,34 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: paloaltonetworks
+x-acquired-year: 2018
+x-successor: Prisma Cloud (Palo Alto Networks)
+x-enrichment-note: 'Domain evident.io registered (MarkMonitor/Akamai) but has no A record;
+  no live website, docs, or API. No provider artifacts are derivable — company defunct as
+  a standalone since the 2018 Palo Alto Networks acquisition.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Security
+- Cloud Security
+- Cloud Security Posture Management
+- Compliance
+- AWS
+- DevSecOps
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
