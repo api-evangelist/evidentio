@@ -38,7 +38,7 @@ x-successor: Prisma Cloud (Palo Alto Networks)
 x-enrichment-note: 'Domain evident.io registered (MarkMonitor/Akamai) but has no A record;
   no live website, docs, or API. No provider artifacts are derivable — company defunct as
   a standalone since the 2018 Palo Alto Networks acquisition.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
